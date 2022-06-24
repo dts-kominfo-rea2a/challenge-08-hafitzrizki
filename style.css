@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(0, 136, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#app {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 1em 4em;
+    margin: 4em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#todo-title, #todo-subtitle {
+    text-align: center;
+}
+
+mark{
+    background-color: rgb(0, 55, 255);
+    color: #fff;
+    padding: 0.3em 0.2em;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+ul li:before
+{
+    content: '\2713';
+    margin: 0 1em;
+    font-weight: 700;
+}
+
+button {
+    background-color: rgb(0, 70, 145);
+    color: #fff;
+    padding: 0.4em 1em;
+    border: 2px solid rgb(0, 70, 145);
+    border-radius: 2px ;
+}
+
+input {
+    padding: 0.4em 1em;
+}
